@@ -27,4 +27,8 @@ print(grades_ds)
 eve = grades['Eva']
 wally = grades.Wally #only works with string notation
 
+e = grades.values #array of all values
+
+hardware = pd.Series(['Hammer', 'Saw', 'Wrench'])
+
 print()
